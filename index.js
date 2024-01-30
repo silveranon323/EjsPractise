@@ -15,6 +15,7 @@ app.post("/submit", (req, res) => {
 });
 app.get("/users", (req, res) => {
   res.json(users);
+  console.log(users);
 });
 app.listen(port, () => {
   console.log("Server is running...");
